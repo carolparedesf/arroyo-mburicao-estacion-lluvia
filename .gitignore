@@ -1,7 +1,7 @@
 # ==========================================
 # KiCad
 # ==========================================
- 
+
 # Backup files
 *.bak
 *.bck
@@ -10,74 +10,74 @@
 *.sch-bak
 *-bak.kicad_pcb
 *-bak.kicad_sch
- 
+
 # Auto-save files
 *~_autosave-*
 *_autosave.*
 \#auto_saved_files\#
- 
+
 # Temporary files
 *.tmp
 *.000
 *.001
- 
+
 # Lock files
 *.lck
- 
+
 # KiCad cache
 fp-info-cache
 *.kicad_prl
 sym-lib-table.bak
 fp-lib-table.bak
- 
+
 # Project settings backups
 *-save.pro
 *-save.kicad_pcb
 *-save.kicad_sch
- 
+
 # Netlist (se regenera desde KiCad)
 *.net
- 
+
 # Autorouter files
 *.dsn
 *.ses
- 
+
 # Rescue files
 *-rescue.kicad_sch
 *-rescue.lib
 rescue-backup/
- 
+
 # ==========================================
 # PlatformIO / ESP32
 # ==========================================
- 
+
 # Build output
 firmware/.pio/
 firmware/.pioenvs/
 firmware/.piolibdeps/
- 
+
 # VSCode PlatformIO
 .vscode/
 *.code-workspace
- 
+
 # Compiled files
 *.o
 *.elf
 *.bin
 *.hex
 *.map
- 
+
 # ==========================================
 # Dashboard / Web
 # ==========================================
- 
+
 # Node modules
 dashboard/node_modules/
 dashboard/.env
 dashboard/.env.local
 dashboard/dist/
 dashboard/build/
- 
+
 # Python
 __pycache__/
 *.pyc
@@ -86,46 +86,51 @@ __pycache__/
 .env
 venv/
 .venv/
- 
+
 # ==========================================
 # Sistema operativo
 # ==========================================
- 
+
 # Windows
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
- 
+
 # macOS
 .DS_Store
 .AppleDouble
 .Spotlight-V100
 .Trashes
- 
+
 # Linux
 *~
 .directory
- 
+
 # ==========================================
 # Editores
 # ==========================================
- 
+
 # VSCode
 .vscode/settings.json
 .vscode/launch.json
- 
+
 # JetBrains
 .idea/
 *.iml
- 
+
 # Vim / Nano
 *.swp
 *.swo
- 
+
 # ==========================================
 # Documentación
 # ==========================================
- 
+
+# Word lock files (archivos temporales cuando el .docx está abierto)
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
 # LaTeX temporales (si usas LaTeX para el informe)
 *.aux
 *.log
@@ -134,17 +139,17 @@ $RECYCLE.BIN/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
- 
+
 # ==========================================
 # Otros
 # ==========================================
- 
+
 # Credenciales y configuración sensible
 secrets.h
 credentials.h
 config_private.h
 wifi_config.h
- 
+
 # Archivos comprimidos temporales
 *.zip
 *.tar.gz
