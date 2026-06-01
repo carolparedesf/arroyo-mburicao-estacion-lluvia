@@ -1,0 +1,5 @@
+"-specs=/home/victoria/tesis-prediccion-lluvia/placa/firmware/esp32s3_lluvia/build/specs/picolibc.specs"
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

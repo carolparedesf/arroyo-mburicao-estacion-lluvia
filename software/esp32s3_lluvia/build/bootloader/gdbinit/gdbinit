@@ -1,0 +1,2 @@
+source /home/victoria/tesis-prediccion-lluvia/placa/firmware/esp32s3_lluvia/build/bootloader/gdbinit/symbols
+source /home/victoria/tesis-prediccion-lluvia/placa/firmware/esp32s3_lluvia/build/bootloader/gdbinit/connect

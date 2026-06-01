@@ -1,0 +1,9 @@
+Command: cmake -G Ninja -B /home/victoria/tesis-prediccion-lluvia/placa/firmware/esp32s3_lluvia/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/victoria/.espressif/python_env/idf6.2_py3.10_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/victoria/tesis-prediccion-lluvia/placa/firmware/esp32s3_lluvia
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
