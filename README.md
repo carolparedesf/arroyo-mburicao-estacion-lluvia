@@ -13,7 +13,7 @@ Sistema de monitoreo pluviométrico distribuido a lo largo del arroyo Mburicao. 
 
 | Render 3D | PCB | Placa soldada |
 |---|---|---|
-| ![Render 3D](hardware/Estacion_lluviaV4/images/render_3d.png) | ![PCB](hardware/Estacion_lluviaV4/images/pcb_top.png) | ![Placa soldada](docs/photos/placa_soldada.jpeg) |
+| ![Render 3D](hardware/Estacion_lluviaV4/images/render_3d.png) | ![PCB](hardware/Estacion_lluviaV4/images/pcb_top.png) | ![Placa soldada](docs/preliminary_results/placa_soldada.jpeg) |
 
 ## Características principales
 
