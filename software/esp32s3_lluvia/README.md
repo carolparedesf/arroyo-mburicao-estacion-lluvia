@@ -37,7 +37,7 @@ esp32s3_lluvia/
 | Parámetro | Valor | Archivo |
 |-----------|-------|---------|
 | Período de medición | 60 segundos | `main.c` → `MEASUREMENT_PERIOD_SEC` |
-| Offset horario | UTC-4 (Paraguay) | `main.c` → `SERVER_TIME_OFFSET_SEC` |
+| Offset horario | UTC-3 (Paraguay) | `main.c` → `SERVER_TIME_OFFSET_SEC` |
 | Slave ID sensor | 1 | `rs485_config.h` → `RAIN_SLAVE_ID` |
 | Registro lluvia | 0x006F | `rs485_config.h` → `RAIN_REGISTER_ACCUMULATED` |
 | Baudrate sensor | 9600 | `rs485_config.h` → `SENSOR_BAUD_RATE` |

@@ -1,55 +1,114 @@
 # ==========================================
-# KiCad - Fabricación (outputs que se regeneran)
+# KiCad
 # ==========================================
-# Gerbers y archivos de fabricación (si los generás en una carpeta)
-hardware/**/Gerbers/
-hardware/**/gerbers/
-hardware/**/fab/
-hardware/**/*.gbr
-hardware/**/*.drl
-hardware/**/*.gbl
-hardware/**/*.gtl
-hardware/**/*.gbs
-hardware/**/*.gts
-hardware/**/*.gbo
-hardware/**/*.gto
-hardware/**/*.gm1
-hardware/**/*-NPTH.drl
-
-# Archivos de BOM generados automáticamente (si los exportás desde KiCad)
-hardware/**/*-BOM.csv
-hardware/**/*_bom.xml
-
+ 
+# Backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-bak.kicad_pcb
+*-bak.kicad_sch
+ 
+# Auto-save files
+*~_autosave-*
+*_autosave.*
+ 
+# Temporary files
+*.tmp
+*.000
+*.001
+ 
+# Lock files
+*.lck
+ 
+# KiCad cache
+fp-info-cache
+*.kicad_prl
+sym-lib-table.bak
+fp-lib-table.bak
+ 
+# Project settings backups
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+ 
+# Netlist (se regenera desde KiCad)
+*.net
+ 
+# Autorouter files
+*.dsn
+*.ses
+ 
+# Rescue files
+*-rescue.kicad_sch
+*-rescue.lib
+rescue-backup/
+ 
+# Reportes y configuraciones locales de KiCad
+*.rpt
+fabrication-toolkit-options.json
+ 
+# Backups de KiCad
+**/Estacion_lluviaV4-backups/
+ 
 # ==========================================
-# FreeCAD / Mechanical (archivos temporales)
+# Archivos de fabricación (se regeneran desde KiCad)
+# ==========================================
+**/fabrication_files_G13/
+ 
+# ==========================================
+# ESP-IDF (Espressif)
+# ==========================================
+ 
+# Build output
+**/build/
+**/.cache/
+ 
+# ESP-IDF dependencias y SDK (se regeneran con idf.py)
+**/managed_components/
+**/dependencies.lock
+ 
+# Configuración local del proyecto (se regenera con idf.py menuconfig)
+sdkconfig.old
+ 
+# Flasheo y monitor
+*.bin
+*.elf
+*.map
+ 
+# ==========================================
+# VSCode (ESP-IDF extension)
+# ==========================================
+.vscode/
+*.code-workspace
+ 
+# ==========================================
+# Dashboard / Next.js
+# ==========================================
+dashboard/node_modules/
+dashboard/.env
+dashboard/.env.local
+dashboard/.env*.local
+dashboard/dist/
+dashboard/build/
+dashboard/.next/
+ 
+# ==========================================
+# FreeCAD
 # ==========================================
 *.FCStd1
 *.FCBak
-mechanical/**/*.FCStd1
-mechanical/**/*.FCBak
-
+ 
 # ==========================================
-# PlatformIO - adicionales
-# ==========================================
-# Carpeta de librerías descargadas automáticamente
-.pio/
-firmware/lib/
-
-# ==========================================
-# Datos / Logs de campo (si los generás localmente)
+# Datos de campo y logs locales
 # ==========================================
 data/
 logs/
-*.csv
 *.log
 *.dat
-
-# ==========================================
-# Jupyter Notebooks (si usás para análisis)
-# ==========================================
-.ipynb_checkpoints/
-*.ipynb
-
+ 
 # ==========================================
 # Certificados y claves
 # ==========================================
@@ -57,3 +116,53 @@ logs/
 *.key
 *.crt
 *.p12
+ 
+# Credenciales en código fuente
+secrets.h
+credentials.h
+config_private.h
+wifi_config.h
+ 
+# ==========================================
+# Sistema operativo
+# ==========================================
+ 
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+~$*.docx
+~$*.xlsx
+~$*.pptx
+ 
+# macOS
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes
+ 
+# Linux
+*~
+.directory
+ 
+# ==========================================
+# Editores
+# ==========================================
+.idea/
+*.iml
+*.swp
+*.swo
+ 
+# ==========================================
+# Documentación
+# ==========================================
+ 
+# LaTeX temporales
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+ 
