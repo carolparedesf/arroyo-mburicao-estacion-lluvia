@@ -1,9 +1,6 @@
 # Sistema de adquisición y visualización de datos de sensores de lluvia
 ### Estaciones meteorológicas distribuidas — Arroyo Mburicao
 
-**Universidad Nacional de Asunción — Facultad de Ingeniería**
-Proyecto MCT 2025
-
 ---
 
 ## Descripción
@@ -16,8 +13,7 @@ Sistema de monitoreo pluviométrico distribuido a lo largo del arroyo Mburicao. 
 
 | Render 3D | PCB | Placa soldada |
 |---|---|---|
-| ![Render 3D](hardware/images/render_3d.png) | ![PCB](hardware/images/pcb_top.png) | ![Placa soldada](docs/photos/placa_soldada.JPEG) |
----
+| ![Render 3D](hardware/Estacion_lluviaV4/images/render_3d.png) | ![PCB](hardware/Estacion_lluviaV4/images/pcb_top.png) | ![Placa soldada](docs/photos/placa_soldada.jpeg) |
 
 ## Características principales
 
